@@ -22,7 +22,7 @@
   background-color: var(--secondary-color);
 }
 
-.logo-link{
+.logo-link {
   margin: auto;
 }
 
@@ -57,7 +57,7 @@ img {
 }
 
 .sidenav a:hover {
-  color: #f1f1f1;
+  color: var(--secondary-color);
 }
 
 .sidenav .closebtn {
@@ -76,4 +76,14 @@ img {
   .sidenav a {
     font-size: 18px;
   }
+}
+
+/* -- footer -- */
+.footer-copyright {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
 }

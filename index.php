@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./src/bs/css/bootstrap.min.css">
     <script src="./src/bs/js/bootstrap.min.js"></script>
 
-    <!-- Font awesome - free (FA) -->
+    <!-- my css -->
     <link rel="stylesheet" href="./src/custom/css/main.css">
 </head>
 
@@ -19,7 +19,7 @@
         <button class="navbar-toggler navbar-side-menu-icon" onclick="openNav()">
             <i class="fas fa-bars"></i>
         </button>
-        <div style="margin: auto; border: 1px solid green; padding: 0px; width: fit-content;">
+        <div style="margin: auto; padding: 0px; width: fit-content;">
             <a class="navbar-brand logo-link" href="./index.php">
                 <img class="d-none d-lg-block d-print-block" src="./src/custom/img/artopolis-logo-black-normal.svg" width="70%">
                 <img class="d-xl-none d-lg-none d-print-block" src="./src/custom/img/artopolis-logo-black-mobile.svg" width="40" height="40">
@@ -33,6 +33,16 @@
         <a href="#">Clients</a>
         <a href="#">Contact</a>
     </div>
+
+    <footer class="page-footer font-small">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2019 Copyright:
+    <a href="https://artopolis.si" style="color: var(--teritary-color);"> Artopolis.si</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
 
 </body>
 
