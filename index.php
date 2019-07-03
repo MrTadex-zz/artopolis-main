@@ -1,5 +1,6 @@
 <html>
 <?php require_once('./src/inc/connect-db.inc.php');?>
+
 <head>
     <!-- Font awesome - free (FA) -->
     <link rel="stylesheet" href="./src/fa/css/all.min.css">
@@ -17,8 +18,7 @@
     <!-- Just an image -->
     <?php require('./src/inc/header.inc.php');?>
 
-
-
     <?php require('./src/inc/footer.inc.php');?>
 </body>
+
 </html>
